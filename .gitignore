@@ -1,0 +1,36 @@
+# Ignore environment files
+.env
+
+# Ignore local data files
+portfolio_manager/data/
+
+# Ignore Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ignore virtual environment files
+venv/
+env/
+.myenv/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore distribution and build files
+dist/
+build/
+*.egg-info/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore pytest cache
+.pytest_cache/
